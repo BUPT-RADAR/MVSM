@@ -133,7 +133,7 @@ def trainmodel(model,sample_train,label_train,sample_test,label_test):
 
 NUM_CLASSES=2
 
-data, label=loadtrainData22()
+data, label=loadtrainData()
 data=data.reshape((-1,50,50,1))
 
 Index=np.arange(data.shape[0])
